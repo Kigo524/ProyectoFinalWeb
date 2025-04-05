@@ -33,6 +33,15 @@ section{
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
+#coments{
+    padding: 20px;
+    margin: 20px;
+    background: #173747;
+    border-radius: 15px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    color: rgb(218, 122, 55);
+}
+
 h2{
     color: #173747; /*Falta buscar otro color*/
     text-align: center;
