@@ -71,3 +71,9 @@ th, td{
     vertical-align: top;
     border: 1px solid #173747;
 }
+
+div{
+    background-color: rgba(rgb(165, 181, 163)); /*Creo que asi no se pone un cuadro extra a modo de separar ambos comentarios*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+}
