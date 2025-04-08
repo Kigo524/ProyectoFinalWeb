@@ -73,18 +73,25 @@ th, td{
 }
 
 div{
-    background-color: rgba(rgb(165, 181, 163)); /*Creo que asi no se pone un cuadro extra a modo de separar ambos comentarios*/
+    background-color: rgba(165, 181, 163, 0.2); /*Creo que asi no se pone un cuadro extra a modo de separar ambos comentarios*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
+    margin: 0;
+    padding: 10px; /*para el espacio interno*/
+    border-radius: 15px;
 }
 
 .opinion{
     display: flex;
     align-items: center; /*alinear la imagen con el texto*/
-    gap: 10px; /*espacio entre imagen y texto*/
+    gap: 5px; /*espacio entre imagen y texto*/
+    justify-content: flex-start; /*Alienralo a la izquierda*/
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
 }
 
 .opinion img {
-    width: 20px;
+    width: 25px;
     height: auto;
+    margin: 0; /*por si hay algun margen adicional*/
 }
