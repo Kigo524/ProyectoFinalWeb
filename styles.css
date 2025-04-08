@@ -77,3 +77,14 @@ div{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 50px;
 }
+
+.opinion{
+    display: flex;
+    align-items: center; /*alinear la imagen con el texto*/
+    gap: 10px; /*espacio entre imagen y texto*/
+}
+
+.opinion img {
+    width: 20px;
+    height: auto;
+}
